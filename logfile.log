@@ -1,0 +1,27 @@
+2023-04-18 20:49:20 INFO  Log:16 - *************
+2023-04-18 20:49:20 INFO  Log:17 - *************
+2023-04-18 20:49:20 INFO  Log:18 - *******This is the beginning of my Test Case*******
+2023-04-18 20:49:20 INFO  Log:26 - My Test Case is executing right now
+2023-04-18 20:49:20 INFO  Log:30 - My Test Case might have some trivial issues
+2023-04-18 20:49:49 INFO  Log:26 - This Test Case is about to get completed
+2023-04-18 20:49:49 INFO  Log:21 - ####################
+2023-04-18 20:49:49 INFO  Log:22 - ####################
+2023-04-18 20:49:49 INFO  Log:23 - ##########This Test Case is finished#########
+2023-04-18 21:13:27 INFO  Log:16 - *************
+2023-04-18 21:13:27 INFO  Log:17 - *************
+2023-04-18 21:13:27 INFO  Log:18 - *******This is the beginning of my Test Case*******
+2023-04-18 21:13:27 INFO  Log:26 - My Test Case is executing right now
+2023-04-18 21:13:27 INFO  Log:30 - My Test Case might have some trivial issues
+2023-04-18 21:13:33 INFO  Log:26 - This Test Case is about to get completed
+2023-04-18 21:13:33 INFO  Log:21 - ####################
+2023-04-18 21:13:33 INFO  Log:22 - ####################
+2023-04-18 21:13:33 INFO  Log:23 - ##########This Test Case is finished#########
+2023-04-18 21:13:59 INFO  Log:16 - *************
+2023-04-18 21:13:59 INFO  Log:17 - *************
+2023-04-18 21:13:59 INFO  Log:18 - *******This is the beginning of my Test Case*******
+2023-04-18 21:13:59 INFO  Log:26 - My Test Case is executing right now
+2023-04-18 21:13:59 INFO  Log:30 - My Test Case might have some trivial issues
+2023-04-18 21:14:05 INFO  Log:26 - This Test Case is about to get completed
+2023-04-18 21:14:05 INFO  Log:21 - ####################
+2023-04-18 21:14:05 INFO  Log:22 - ####################
+2023-04-18 21:14:05 INFO  Log:23 - ##########This Test Case is finished#########
