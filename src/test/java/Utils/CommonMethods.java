@@ -8,6 +8,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -29,21 +30,14 @@ public class CommonMethods extends PageInitializer {
         String browserType = ConfigReader.getPropValue("browserType");
         switch (browserType) {
             case "Chrome":
-                driver = new ChromeDriver();
+                ChromeOptions ops = new ChromeOptions();
+                ops.addArguments("--no-sandbox");
+                ops.addArguments("--remote-allow-origins=*");
+                if(ConfigReader.getPropValue("Headless").equals("true")){
+                    ops.addArguments("--headless=new");
+                }
+                driver = new ChromeDriver(ops);
                 break;
-            case "Firefox":
-                driver = new FirefoxDriver();
-                break;
-            case "Safari":
-                driver = new SafariDriver();
-                break;
-            case "Edge":
-                driver = new EdgeDriver();
-                break;
-            default:
-                driver = new InternetExplorerDriver();
-                break;
-
         }
 
         driver.manage().window().maximize();
@@ -52,14 +46,14 @@ public class CommonMethods extends PageInitializer {
         initializePageObjects(); // This steps will initialize all the pages we have in our PageInitializer class
         // along with the launching of application
         DOMConfigurator.configure("log4j.xml");
-        Log.startTestCase("This is the beginning of my Test Case");
-        Log.info("My Test Case is executing right now");
-        Log.warning("My Test Case might have some trivial issues");
+        Log.startTestCase("test case has been begun");
+        Log.info("test case is executing now");
+        Log.warning("the test case has an error");
 
     }
     public static void closeBrowser(){
-        Log.info("This Test Case is about to get completed");
-        Log.endTestCase("This Test Case is finished");
+        Log.info("the test case is about to be completed");
+        Log.endTestCase("the test case has finished");
         driver.close();
     }
 

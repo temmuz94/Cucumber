@@ -1,14 +1,14 @@
 Utils\Constants.class
 Utils\Log.class
 Pages\AddEmployeePage.class
-StepDefinitions\EmployeeSearch.class
 StepDefinitions\Login.class
-Utils\ConfigReader.class
 StepDefinitions\AddEmployee.class
+Pages\LoginPage.class
+StepDefinitions\EmployeeSearch.class
+Utils\ConfigReader.class
 Utils\CommonMethods.class
 Utils\Test.class
 StepDefinitions\Hooks.class
 StepDefinitions\PageInitializer.class
 TestRunner\FailedRunner.class
-Pages\LoginPage.class
 TestRunner\SmokeRunner.class

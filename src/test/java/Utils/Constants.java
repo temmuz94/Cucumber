@@ -6,5 +6,8 @@ public class Constants {
 
     public static final String SCREENSHOT_FILEPATH=System.getProperty("user.dir") +"/screenshots/";
 
+    public static final String TESTDATA_FILEPATH = System.getProperty("user.dir") + "/data/testdata.txt";
+
+
     //public  static  final String SCREENSHOT_FILEPATH=System.getProperty("user.dir") +"/screenshots/";
 }
